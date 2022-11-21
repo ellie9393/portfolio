@@ -1,0 +1,35 @@
+nav {
+    /* position: fixed; */
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    display: inline-flex;
+    
+  }
+  
+  nav ul li {
+    display: inline-flex;
+    margin: 0;
+    
+  }
+  
+  nav ul li a {
+    float: center;
+    text-decoration: none;
+    padding: 1em;
+    background-color:rgb(97, 118, 75);
+    color: white;
+    border: 10px;
+    border-color: black;
+   
+    
+  }
+  
+  nav ul li a:hover {
+    background-color: rgb(250, 214, 165);
+  }
+  
+  
