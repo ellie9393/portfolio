@@ -1,35 +1,69 @@
-nav {
-    /* position: fixed; */
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+  font-family: "Poppins", sans-serif;
+  /* text-align: center; */
+  }
+
+  .navbar-nav {
+    margin-bottom: 1em;
+    padding-left: 0;
   }
   
-  nav ul {
-    list-style-type: none;
-    margin: 0px;
-    padding: 0px;
-    display: inline-flex;
-    
-  }
-  
-  nav ul li {
+ .nav-item {
     display: inline-flex;
     margin: 0;
-    
   }
   
-  nav ul li a {
-    float: center;
+  .nav-link {
+    /* float: center; */
     text-decoration: none;
     padding: 1em;
     background-color:rgb(97, 118, 75);
     color: white;
-    border: 10px;
-    border-color: black;
-   
-    
   }
   
-  nav ul li a:hover {
+  .nav-link:hover {
     background-color: rgb(250, 214, 165);
   }
+
+  section {
+    padding: 5rem 0rem;
+  }
   
+  #intro {
+    min-height: 80vh;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    border-bottom: 0px;
+    background: rgb(250, 214, 165);
+    font-weight: 400;
+    color: rgb(97, 118, 75);
+    padding: 0rem 5.6rem;
+    margin-bottom: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    
+    /* background: url("");
+    background-position: center;
+    background-size: cover; */
+  }
+  
+  .intro-title {
+    font-size: 4.6rem;
+    font-weight: 700;
+    margin-bottom: 3.2rem;
+    text-align: left;  
+  }
+
+  .intro-link {
+    color: darkblue;
+    font-size: 1.2rem;
+  }
   
