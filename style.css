@@ -110,7 +110,20 @@ body {
         height: 100%;
         justify-content: center;
         flex-direction: column;
-        }       
+        }
+  .card {
+    height: 400px;
+    background-color: rgb(155, 161, 123)
+    ;
+  }
+
+  .card-text {
+    height: 120px;
+  }
+
+  img {
+    padding: 5px;
+  }
       
     
   
