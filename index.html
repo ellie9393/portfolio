@@ -5,29 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ellie Mashayekhi</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="/style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
 
-    <nav class="navbar">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href="" ><i class="fa fa-fw fa-home"></i> Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href=""><i class="fa fa-fw fa-user"></i> About Me</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href=""><i class="fa fa-fw fa-wrench"></i> Experience</a>
+    <nav class="navbar navbar-expand-md fixed-top" id="navbar">
+      <div class="container-fluid">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0 float-right">
+          <li class="nav-item">
+            <a class="nav-link" href="" ><i class="fa fa-fw fa-home"></i> Home</a>
           </li>
-        <li class="nav-item">
-          <a class="nav-link" href=""><i class="fa fa-fw fa-book"></i> Projects</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href=""><i class="fa fa-fw fa-envelope"></i> Contact Me</a>
-        </li>
-      </ul>
+          <li class="nav-item">
+            <a class="nav-link" href=""><i class="fa fa-fw fa-user"></i> About Me</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href=""><i class="fa fa-fw fa-wrench"></i> Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href=""><i class="fa fa-fw fa-book"></i> Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href=""><i class="fa fa-fw fa-envelope"></i> Contact Me</a>
+          </li>
+        </ul>
+      </div>
     </nav>
 
     <section id="intro">
@@ -40,6 +43,38 @@
         <p class="into-more">
           <a class="intro-link" href="#about"> Know more </a>
         </p>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title">About me</h2>
+        <div class="row">
+          <div class="col-md-6 col-sm-12">
+            <div class="about-pic">
+              <img id="profile-pic"
+                alt="Profile Image"
+                class="img-fluid rounded shadow-lg"
+                height="auto"
+                width="300px"
+                src="images/ellie3.jpeg"
+              />
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="about-info">
+              <p  id="info">
+                I’m a Test Engineer at Lam Research, my main role is to validate new designs and transition new products into the factory. My job is a combination of designing and testing new tools, as well as improving existing designs. I also participate in projects related to preparing test and diagnostic software programs.
+              </p>
+              <p  id="more-info">
+                I’m also a student at PSU working on my master’s degree in computer science. I got my bachelor’s in software engineering back in my home country, Iran. I’m interested in programming and Machine learning. I’m looking forward to learning about these topics in more detail.
+              </p>
+              <span class="d-flex mt-3">
+                <a class="resume" href="" > View Resume </a>
+              </span>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
     
