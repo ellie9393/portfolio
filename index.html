@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ellie Mashayekhi</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="/style.css" />
     <link rel="stylesheet" href="/variables.css">
@@ -50,6 +51,7 @@
     <section id="about">
       <div class="container">
         <h2 class="section-title">About me</h2>
+        <hr class="featurette-divider">
         <div class="row ">
           <div class="col-md-6 col-sm-12 align-items-center">
             <div class="about-pic">
@@ -89,7 +91,7 @@
 				<h2 class="section-title">My Experience</h2>
 				<hr class="featurette-divider">
 				
-				<div class="container py-5">
+				<div class="container">
 					<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
 						<div class="col">
 							<div class="card">
@@ -160,6 +162,7 @@
     <section id="projects">
       <div class="container">
         <h2 class="section-title">My Projects</h2>
+        <hr class="featurette-divider">
         <div class="row">
           <div class="col-lg-4 col-sm-12">
             <div class="project">
@@ -214,6 +217,114 @@
           </div>
         </div>
       </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+				<h2 class="section-title">Contact ME</h2>
+        <hr class="featurette-divider">
+				<div class="row contact-bg">
+					<div class="col-md-6">
+						<form id="contact-form" name="contact-form" onsubmit="return false">
+							<div class="row">
+								<div class="col-12">
+									<div class="md-form mb-0">
+										<label for="name" class="text-dark fw-bold" aria-label="your name">Your name</label>
+										<input
+											type="text"
+											id="name"
+											name="name"
+											class="form-control"
+											required
+										/>
+									</div>
+								</div>
+
+								<div class="col-12">
+									<div class="md-form mb-0">
+										<label for="email" class="text-dark fw-bold">Your email</label>
+										<input
+											type="text"
+											id="email"
+											name="email"
+											class="form-control"
+											required
+										/>
+									</div>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col-12">
+									<div class="md-form mb-0">
+										<label for="subject" class="text-dark fw-bold">Subject</label>
+										<input
+											type="text"
+											id="subject"
+											name="subject"
+											class="form-control"
+											required
+										/>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12">
+									<div class="md-form">
+										<label for="message" class="text-dark fw-bold">Message</label>
+										<textarea
+											type="text"
+											id="message"
+											name="message"
+											rows="2"
+											class="form-control md-textarea"
+										>
+                    </textarea>
+										
+									</div>
+								</div>
+							</div>
+							<div class="row mt-2">
+								<div class="col-md-2"><button type="submit" id="contact-form-button" class="btn btn-primary">Send</button></div>
+								<div class="col-md-10" id="contact-message"></div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+
+			<footer class="footer text-center ">
+				<div class="container px-4 px-lg-5">
+					<ul class="list-inline mb-5">
+						<li class="list-inline-item">
+							<a 
+              href="" 
+              class="social-link rounded-circle text-white mr-3" 
+              aria-label="facebook link" 
+              target="_blank">
+								<span class="bi-facebook footer-icon"></span> 	
+							</a>
+						</li>
+						<li class="list-inline-item">
+							<a 
+              class="social-link rounded-circle text-white mr-3" 
+              href="" aria-label="github link" 
+              target="_blank">
+								<span class="bi-github footer-icon"></span> 	
+							</a>
+						</li>
+						<li class="list-inline-item">
+							<a 
+              class="social-link rounded-circle text-white mr-3" 
+              href="" 
+              aria-label="linkedin link" 
+              target="_blank">
+								<span class="bi-linkedin footer-icon"></span> 	
+							</a>
+						</li>
+					</ul>
+				</div>
+			</footer>			
     </section>
     
   </body>

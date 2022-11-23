@@ -138,8 +138,8 @@ img {
     var(--secondary-color) 0%,
     var(--accent-color-2) 100%
   );
-  margin-top: -10rem;
-  padding-top: 15rem;
+  /* margin-top: -10rem; */
+  /* padding-top: 15rem; */
 }
 
 #projects h2{
@@ -152,7 +152,8 @@ margin-bottom: 15rem;
 }
 
 .row {
-  margin-bottom: 8rem;
+  /* margin-bottom: 8rem;
+  margin-top: 8rem; */
 }
 
 
@@ -166,6 +167,31 @@ margin-bottom: 15rem;
   width: 80%;
   margin: 0 auto;
 }
+
+.contact-bg{
+  position: relative;
+  background:url('') no-repeat center center;
+  /* background-color: #6c757d; */
+  background-size: cover;
+  background-attachment: scroll;
+}
+#contact-form{
+  margin-top: 50px;
+}
+.footer{
+  /* height: 100px; */
+  padding: 50px 0;
+  /* padding-bottom: 100px; */
+}  
+.footer-icon{
+  font-size: 50px;
+  color: var(--primary-color);
+}
+.footer-icon:hover{
+  font-size: 60px;
+  color: var(--accent-color-1);
+}
+
 
     
   
