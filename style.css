@@ -6,37 +6,62 @@ body {
   /* text-align: center; */
 }
 
+/* NAVBAR */
 .navbar {
   background-color: var(--primary-color);
 }
-
 .navbar-nav {
   margin-bottom: 1em;
   padding-left: 0;
   margin-left: 5em;
 }
-
 .nav-item {
   display: inline-flex;
   margin: 0;
 }
-
 .nav-link {
-  /* float: center; */
   text-decoration: none;
   padding: 1em;
   background-color:var(--primary-color);
   color: white;
 }
-
 .nav-link:hover {
   background-color: var(--accent-color-1);
+  color: white;
 }
+
 
 section {
   padding: 5rem 0rem;
 }
+.section-title {
+  margin: 0px;
+  margin-bottom: 4.5rem;
+  font-size: 3.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+.cta-btn {
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  padding: 0.8rem;
+  font-weight: 700;
+  line-height: 1;
+  /* z-index: 1; */
+  /* transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.6s; */
+}
+.cta-btn:hover {
+  background-color: var(--accent-color-1);
+  color: white;
+}
+img {
+  padding: 5px;
+}
+  
 
+/* ABOUT ME */
 #intro {
   min-height: 70vh;
   height: 70vh;
@@ -48,17 +73,11 @@ section {
   color: black;
   padding: 0rem 5.6rem;
   margin-bottom: 0;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  z-index: -1;
   
   /* background: url("");
   background-position: center;
   background-size: cover; */
 }
-
 .intro-title {
   font-size: 3.6rem;
   font-weight: 700;
@@ -66,20 +85,18 @@ section {
   text-align: left;  
 }
 
-.intro-link {
-  color: darkblue;
+.cta-btn-intro {
+  color: var(--primary-color);
+  text-decoration: none;
   font-size: 1.2rem;
+  border: 2px solid transparent;
+  border-image: linear-gradient(
+    135deg,
+    var(--primary-color) 0%,
+    var(--secondary-color) 100%
+  );
+  border-image-slice: 1;
 }
- 
-.section-title {
-  margin: 0px;
-  margin-bottom: 4.5rem;
-  font-size: 3.5rem;
-  font-weight: bold;
-  text-transform: uppercase;
-  text-align: center;
-}
-
 #about {
   background-color:var(--secondary-color);
   background-image: linear-gradient(
@@ -92,7 +109,6 @@ section {
   border-top: 0px;
   padding-bottom: 10%;
 }
-  
 #profile-pic {
       display: flex;
       height: 100%;
@@ -101,36 +117,32 @@ section {
       text-align: center;
       margin-left: 5rem;
 }
-
 #info {
   display: flex;
   height: 100%;
   justify-content: center;
   flex-direction: column;
 }
+.cta-btn-resume {
+  color: white;
+  border: 2px solid white;
+}
 
+/* Experience */
 .card {
   height: 400px;
   background-color: var(--secondary-color);
 }
-
 .card-text {
   height: 120px;
 }
-
-img {
-  padding: 5px;
+.cta-btn-card {
+  line-height: 0.5;
+  color: white;
+  border: 2px solid white;
 }
 
-.btn {
-  background-color: var(--accent-color-1);
-  border: none;
-}
-
-.btn:hover{
-  background-color: var(--accent-color-2);
-}
-  
+/* PROJECTS */
 #projects {
   background-color:var(--secondary-color);
   background-image: linear-gradient(
@@ -138,56 +150,49 @@ img {
     var(--secondary-color) 0%,
     var(--accent-color-2) 100%
   );
-  /* margin-top: -10rem; */
-  /* padding-top: 15rem; */
 }
-
-#projects h2{
+#projects h2 {
   color: white;
 }
-
 .project {
 margin-bottom: 15rem;
-
 }
-
-.row {
-  /* margin-bottom: 8rem;
-  margin-top: 8rem; */
-}
-
-
 .project-title {
   font-weight: bold;
   margin-bottom: 1.8rem;
   font-size: 2rem;
 }
-
 .project-_image {
   width: 80%;
   margin: 0 auto;
 }
+.cta-btn-project {
+  line-height: 0.5;
+  color: black;
+  border: 2px solid black;
+  background-color: var(--primary-color);
+}
 
-.contact-bg{
+/* CONTACT ME */
+.contact-bg {
   position: relative;
   background:url('') no-repeat center center;
-  /* background-color: #6c757d; */
   background-size: cover;
   background-attachment: scroll;
 }
-#contact-form{
+#contact-form {
   margin-top: 50px;
 }
-.footer{
-  /* height: 100px; */
+
+/* FOOTER */
+.footer {
   padding: 50px 0;
-  /* padding-bottom: 100px; */
 }  
-.footer-icon{
+.footer-icon {
   font-size: 50px;
   color: var(--primary-color);
 }
-.footer-icon:hover{
+.footer-icon:hover {
   font-size: 60px;
   color: var(--accent-color-1);
 }
