@@ -132,7 +132,15 @@ img {
   margin-right: 1rem;
 }
 .card-text {
-  height: 120px;
+  height: 40%;
+}
+.d-block {
+  height: 50%;
+  width: 100%;
+}
+.experience-btn {
+  position: relative;
+  bottom: -30%;
 }
 .cta-btn-card {
   line-height: 0.5;
@@ -206,6 +214,7 @@ img {
   color: var(--accent-color-1);
 }
 
+/* DIFFERENT SCREEN SIZES */
 @media (max-width: 768px) {
   .project {
     margin-bottom: 2rem;
@@ -218,6 +227,20 @@ img {
     margin-bottom: 2rem;
   }
 }
+
+@media (max-width: 414px) {
+  .intro-title, .intro-more, .section-title {
+    font-size: 1.5rem;;
+  }
+}
+
+@media (min-width: 414px) and  (max-width: 768px) {
+  .intro-title, .intro-more, .section-title {
+    font-size: 2.5rem;;
+  }
+  
+}
+
 
     
   
