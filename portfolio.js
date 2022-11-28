@@ -22,6 +22,7 @@ $(document).ready(function() {
       }
       if(!isEmail(email)){
         contact.css('color', 'black');
+        contact.css('font-size', '15px');
         contact.html("You have entered an invalid email address!");
         return false;
       }
@@ -33,8 +34,9 @@ $(document).ready(function() {
           return false;
       }
   
-      contact.css('color', 'green');
-      contact.html("Thanks for contacting me. I'll get back to get you soon!");
+      contact.css('color', 'var(--primary-color)');
+      contact.css('font-size', '1.2rem');
+      contact.html("Thanks for contacting me. I'll get back to you soon!");
       return false; // just to stay here.
     });
   });
