@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Raleway&display=swap');
 
 body {
@@ -71,10 +70,6 @@ img {
   color: black;
   padding: 0rem 5.6rem;
   margin-bottom: 0;
-  
-  /* background: url("");
-  background-position: center;
-  background-size: cover; */
 }
 .intro-title {
   font-size: 3.6rem;
@@ -132,16 +127,18 @@ img {
 
 /* EXPERIENCE */
 .card {
-  height: 400px;
+  height: 60vh;
   background-color: var(--secondary-color);
+  margin-right: 1rem;
 }
 .card-text {
   height: 120px;
 }
 .cta-btn-card {
   line-height: 0.5;
-  color: white;
-  border: 2px solid white;
+  color: black;
+  border: 2px solid black;
+  background-color: var(--accent-color-1);
 }
 
 /* PROJECTS */
@@ -175,7 +172,7 @@ img {
   line-height: 0.5;
   color: black;
   border: 2px solid black;
-  background-color: var(--primary-color);
+  background-color: var(--accent-color-2);
 }
 
 /* CONTACT ME */

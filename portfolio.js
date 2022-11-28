@@ -1,3 +1,18 @@
+const intro = document.querySelector('#intro-title');
+const aboutpic = document.querySelector('.about-pic');
+const aboutinfo = document.querySelector('.about-info');
+const projectimage = document.querySelector('.project-image');
+const navbar = document.querySelector('#navbar-nav');
+
+const tl = new TimelineMax();
+
+tl.fromTo(navbar,2, {opacity: 0, x: 30}, {opacity:1, x: 0})
+.fromTo(intro, 2, {height: "30%"}, {height: "50%", ease: Power2.easeInOut}, "-=2");
+// .fromTo(intro, 2, {width: "100%", width: "80%"});
+// tl.fromTo(navbar, 2, {height: "0"}, {height: "50%", ease: Power2.easeInOut});
+// .fromTo(intro, {x: "-100%"}, {x: "0%"} );
+
+
 
 // Form validation
 $(document).ready(function() {
